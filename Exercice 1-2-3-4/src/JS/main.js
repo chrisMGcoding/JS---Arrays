@@ -45,7 +45,7 @@ let semaine2 = ["Sadimanche", "Mercredongue"];
 let semaine3 = semaine.concat(semaine2);
 console.log(semaine3);
 
-// revrese() inverse le sens d'un tableau
+// reverse() inverse le sens d'un tableau
 console.log(semaine3.reverse());
 
 
@@ -71,3 +71,32 @@ MyArray2.push("chris");
 console.log(MyArray2);
 
 // ------------------------------------
+
+// Exercice 3 :
+let MyArray3 = ["coding 17", "coding 18", "coding 19"];
+
+console.log(MyArray3);
+
+MyArray2.push("chris");
+console.log(MyArray2);
+
+MyArray3.splice(0,1, "chris");
+console.log(MyArray3);
+
+// ----------------------------------
+
+//Exercice 4 :
+let MyArray4 = ["coding 17", "coding 18", "coding 19"];
+
+console.log(MyArray4);
+
+MyArray4.push("chris");
+console.log(MyArray4);
+
+MyArray4.splice(0, 1, "Elvis");
+console.log(MyArray4);
+
+MyArray4.pop();
+console.log(MyArray4);
+
+// -----------------------------------
